@@ -91,7 +91,7 @@ const EmailForm = () => {
           }}
         >
           <Typography variant="h5" gutterBottom sx={{ textAlign: 'center', fontWeight: 'bold' }}>
-            📧 Envoyer un email
+             Envoyer un email
           </Typography>
           <form ref={form} onSubmit={sendEmail}>
             <TextField
